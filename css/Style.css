@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    width: 100%;
+    padding: 150px;
+    float: left;
+    background: #363535;
+}
+.container{
+    width: 100%;
+    float: left;
+}
+.main{
+    background: url(../img/pic+dot+bg.png);
+    height: 569px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px #080606c7;
+    background-position: center;
+}
+.logo-part{
+    width: 43%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: inlineblock;
+}
+.logo-part a{
+    text-decoration: none;
+}
+.logo-part a img{
+    height: 130px;
+    width: 130px;
+    position: relative;
+    left: 855px;
+    bottom: 10px;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+    text-align: right;
+    margin-top: 15px;
+}
+.menu-part ul{
+    margin-top: 20px;
+    position: relative;
+    top: 30px;
+    right: 150px;
+    text-shadow: 0px 2px 4px white;
+}
+.menu-part ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+    text-align: end;
+}
+.menu-part ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+    border-radius: 4px;
+}
+.menu-part ul li a:hover{
+    cursor: pointer;
+    background-color: rgba(183, 35, 228, 0.699);
+}
+.hero-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.hero-part h1{
+    font-size: 34px;
+    display: inline-block;
+    color: #fff;
+    line-height: 1.5rem;
+    position: relative;
+    left: 190px;
+    text-shadow: 0px 1px 7px;
+}
+.hero-part p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 100;
+    margin: 17px 0px;
+    position: relative;
+    left: 185px;
+}
+.hero-part h4{
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 400;
+    position: relative;
+    top: 50px;
+    left: 205px;
+}
+.hero-part h4 a{
+    text-decoration: none;
+    color: #fff;
+}
+.icon{
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+.icon ul{
+    display: -webkit-inline-box;
+    list-style: none;
+    position: relative;
+    top: 195px;
+    left: 10px;
+}
+.icon ul li{
+    margin: 0px 5px;
+}
+.icon ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+}
+.icon ul li a i{
+    background: #fff;
+    color: #282727;
+    padding: 4px;
+    border-radius: 50%;
+}
+.fa-instagram{
+    padding: 4px 4.5px !important;
+}
+.fa-facebook-f{
+    padding: 4px 7px !important;
+}
+.fa-whatsapp{
+    padding: 4px 4.5px !important;
+}
