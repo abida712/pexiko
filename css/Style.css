@@ -82,24 +82,27 @@ header{
     color: #fff;
     line-height: 1.5rem;
     position: relative;
-    left: 190px;
+    left: 447px;
+    bottom: 50px;
     text-shadow: 0px 1px 7px;
 }
 .hero-part p{
     font-size: 20px;
+    display: inline-block;
     color: #fff;
     font-weight: 100;
     margin: 17px 0px;
     position: relative;
-    left: 185px;
+    left: 130px;
+    top: 50px;
 }
 .hero-part h4{
     display: inline-block;
     font-size: 34px;
     font-weight: 400;
     position: relative;
-    top: 50px;
-    left: 205px;
+    top: 133px;
+    right: 110px;
 }
 .hero-part h4 a{
     text-decoration: none;
@@ -114,7 +117,7 @@ header{
     display: -webkit-inline-box;
     list-style: none;
     position: relative;
-    top: 195px;
+    top: 260px;
     left: 10px;
 }
 .icon ul li{
